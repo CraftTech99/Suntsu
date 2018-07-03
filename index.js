@@ -8,7 +8,7 @@ console.log('I am ready!');
 client.on("message", (message) => {
   
   if (message.content.startsWith("shelp")) {
-    message.channel.send("Tipe: sowner, sfacstaff, sfacmembers, sinvite");
+    message.channel.send("Type: sowner, sfacstaff, sfacmembers, sinvite");
   }
 
   if (message.content.startsWith("sowner")) {
