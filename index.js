@@ -8,7 +8,7 @@ console.log('I am ready!');
 client.on("message", (message) => {
   
   if (message.content.startsWith("shelp")) {
-    message.channel.send("Tipe: sowner, sfacstaff, sfacmembers");
+    message.channel.send("Tipe: sowner, sfacstaff, sfacmembers, sinvite");
   }
 
   if (message.content.startsWith("sowner")) {
@@ -19,6 +19,9 @@ client.on("message", (message) => {
   }
    if (message.content.startsWith("sfacmembers")) {
     message.channel.send("Members of Suntsu are: Chaos_Knight, coelprit, DokenBoy, fanjaki, hellbound, kermitzafrog, Lean123shen, Nekta, Neplosion, Phantom Hyperion, rudra30, samantha, sansfoyer, ShadowFreddy, Sicogina, Tazky, Twitch_manobeast10, Viebe2, Vikram, VINHei, ZKillUchiha1");
+  }
+  if (message.content.startsWith("sinvite")) {
+    message.channel.send("https://discord.gg/5T58THC");
   }
 });
 
